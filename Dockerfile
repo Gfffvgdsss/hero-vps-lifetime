@@ -77,11 +77,11 @@ RUN rm -rf /etc/apt/sources.list && \
 	ffmpeg \
 	screen \
 #Fluxbox
-	/app/fluxbox-heroku-mod.deb && \
+	#/app/fluxbox-heroku-mod.deb && \
 #MATE Desktop
-	#apt install -y \ 
-	#ubuntu-mate-core \
-	#ubuntu-mate-desktop && \
+	apt install -y \ 
+	ubuntu-mate-core \
+	ubuntu-mate-desktop && \
 #XFCE Desktop
 	#apt install -y \
 	#xubuntu-desktop && \
